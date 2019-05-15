@@ -104,7 +104,7 @@ THREE.SubdivisionModifier.prototype.modify = function (geometry) {
         let oldVertices, oldFaces, oldUvs;
         let newVertices, newFaces, newUVs = [];
         let n, l, i, il, j, k;
-        let metaVertices, sourceEdges;
+        let metaVertices;
         // new stuff.
         let sourceEdges, newEdgeVertices, newSourceVertices;
 
