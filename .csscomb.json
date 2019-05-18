@@ -26,6 +26,10 @@
   "vendor-prefix-align": true,
   "sort-order": [
     [
+      "$variable",
+      "$include"
+    ],
+    [
       "position",
       "z-index",
       "top",
@@ -37,13 +41,7 @@
       "visibility",
       "float",
       "clear",
-      "overflow",
-      "overflow-x",
-      "overflow-y",
-      "-ms-overflow-x",
-      "-ms-overflow-y",
-      "clip",
-      "zoom",
+
       "-webkit-align-content",
       "-ms-flex-line-pack",
       "align-content",
@@ -93,6 +91,14 @@
       "-ms-flex-flow",
       "flex-flow",
       "order",
+
+      "overflow",
+      "overflow-x",
+      "overflow-y",
+      "-ms-overflow-x",
+      "-ms-overflow-y",
+      "clip",
+      "zoom",
 
       "-webkit-box-sizing",
       "-moz-box-sizing",
@@ -361,7 +367,9 @@
       "box-shadow",
       "filter:progid:DXImageTransform.Microsoft.gradient",
       "-ms-filter:\\'progid:DXImageTransform.Microsoft.gradient",
-      "text-shadow"
+      "text-shadow",
+
+      "..."
     ]
   ]
 }
